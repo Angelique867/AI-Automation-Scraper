@@ -15,13 +15,13 @@ Built with Python, BeautifulSoup, and SQLite, this project is designed for perso
 
 ---
 
-## Setup Instructions (Be sure to change path)
+## Setup Instructions
 
 ### 1. Clone the repository
 
 ```bash
-git clone git@github.com:YourUsername/ai_scraper.git
-cd ai_scraper
+git clone https://github.com/Angelique867/AI-Automation-Scraper.git
+cd AI-Automation-Scraper
 ```
 ### 2. Create a virtual environment
 
@@ -62,7 +62,7 @@ cat logs/cron_run.log
 ```
 
 ### 6. Automate daily runs (Linux)
-#### 1. Create a shell script run_scraper.sh:
+#### 1. Create a shell script run_scraper.sh: (Be sure to update the path for your computer)
 ```bash
 #!/bin/bash
 cd ~/Documents/ai_scraper || exit
@@ -77,7 +77,7 @@ chmod +x run_scraper.sh
 ```bash
 crontab -e
 ```
-Add: 
+Add: (Be sure to update the path for your computer)
 ```bash
 0 9 * * * /home/YourUsername/Documents/ai_scraper/run_scraper.sh
 ```
