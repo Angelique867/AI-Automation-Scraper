@@ -15,7 +15,7 @@ Built with Python, BeautifulSoup, and SQLite, this project is designed for perso
 
 ---
 
-## Setup Instructions
+## Setup Instructions (Be sure to change path)
 
 ### 1. Clone the repository
 
